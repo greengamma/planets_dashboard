@@ -1,0 +1,18 @@
+Mercury,Venus,Earth,Mars,Jupiter,Saturn,Uranus,Neptune,
+Orbit Distance(km),57909227,108209475,149598262,227943824,778340821,1426666422,2870658186,4498396441
+Equatorial Radius(km),2439.7,6051.8,6371,3389.5,69911,58232,25362,24622
+Volume(km3),60827208742,928415345893,1083206916846,163115609799,1431281810739360,827129915150897,68334355695584,62525703987421
+Mass(kg),3.30104E+023,4.86732E+024,5.97219E+024,6.41693E+023,1.89813E+027,5.68319E+026,8.68103E+025,1.0241E+026
+Density(g/cm3),5.427,5.243,5.513,3.934,1.326,0.687,1.27,1.638
+Surface Gravity(m/s2),3.7,8.87,9.80665,3.71,24.79,10.4*,8.87,11.15
+Escape Velocity(km/h),15300,37296,40284,18108,216720,129924,76968,84816
+Rotation Period(Earth Days),58.646,-243.018,0.99726968,1.026,0.41354,0.444,-0.718,0.671
+Orbit Period(Earth Years),0.2408467,0.61519726,1.0000174,1.8808476,11.862615,29.447498,84.016846,164.79132
+Mean Orbit Velocity(km/h),170503,126074,107218,86677,47002,34701,24477,19566
+Orbit Eccentricity,0.20563593,0.00677672,0.01671123,0.0933941,0.04838624,0.05386179,0.04725744,0.00859048
+Orbit Inclination,7.0 degrees,3.39 degrees,0.00005 degrees,1.85 degrees,1.304 degrees,2.49 degrees,0.77 degrees,1.77 degrees
+Equatorial Inclination,0 degrees,177.3 degrees (retrograde rotation),23.4393 degrees,25.2,3.1 degrees,26.7 degrees,97.8 degrees (retrograde rotation),28.3 degrees
+Surface Temperature(°C),-173/427,462,-88/58 (min/max),-153 to +20,,,,
+Atmospheric Constituents,,"Carbon Dioxide, Nitrogen","Nitrogen, Oxygen","Carbon Dioxide, Nitrogen, Argon","Hydrogen, Helium","Hydrogen, Helium","Hydrogen, Helium, Methane","Hydrogen, Helium, Methane"
+Moons,0,0,1,2,80,84,27,14
+Rings,No,No,No,No,Yes,Yes,Yes,Yes
