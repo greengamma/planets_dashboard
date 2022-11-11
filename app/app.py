@@ -2,36 +2,25 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import time
-import seaborn as snss
+import seaborn as sns
 
+st.title('Planets Dashboard')
 
 def main():
     with st.sidebar:
         # 1st widget
-        label1 = 'Select planets to compare with Earth!'
+        label1 = 'Select PLANETS to compare with Earth!'
         planets = ['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
         chosen_planets =  st.multiselect(label=label1, options=planets)
 
         # 2nd widget
-        label2 = 'Select metrics to compare!'
+        label2 = 'Select METRICS to compare!'
         metrics = ['Orbit Distance (km)', 'Equatorial Radius (km)', 'Volume (km³)', 'Mass (kg)', 'Density (g/cm³)', \
             'Escape Velocity (km/h)', 'Rotation Period (Earth Days)', 'Orbit Period (Earth Years)', 'Mean Orbit Velocity (km/h)', \
             'Orbit Eccentricity', 'Orbit Inclination', 'Equatorial Inclination', 'Mean Temperature (°C)', 'Atmospheric Constituents',  \
             'Moons', 'Rings']
         chosen_metrics = st.multiselect(label=label2, options=metrics)
 
-
-
-
-
-    # st.title('Planets Dashboard')
-    # menu1 = ['All', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
-    # label1 = 'Select planets to compare with Earth!'
-    # choice1 = st.sidebar.multiselect(label1, menu1)
-
-    # menu2  = ['All', 'Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
-    # label2 = 'Select planets to compare with Earth!'
-    # choice2 = st.sidebar.multiselect(label2, menu2)
 
 
 # Load function
