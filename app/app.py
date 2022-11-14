@@ -5,12 +5,15 @@ import matplotlib.pyplot as plt
 import time
 import seaborn as sns
 
-st.title('Planets Dashboard')
+#st.title('Planets Dashboard')
+from PIL import Image
+image = Image.open('../data/planets.jpg')
+st.image(image, caption='Our Solar System')
 
 
 with st.sidebar:
     # 1st widget
-    label1 = 'Select PLANETS to compare with Earth!'
+    label1 = 'Select PLANETS for comparison'
     planets = ['Mercury', 'Venus', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
     selected_planets =  st.multiselect(label=label1, options=planets)
 
@@ -44,7 +47,12 @@ def load_data(selected_planets):
 # Load data
 with st.spinner('Loading data...'):
     df = load_data(selected_planets)
-st.success('Loading data... Done!', icon="✅")
+    time.sleep(0.4)
+with st.spinner("Processing..."):
+    time.sleep(0.2)
+st.success('Done! ✅')
+
+
 
 
 # Create a subheader
@@ -66,10 +74,10 @@ for metric in selected_metrics:
         st.pyplot(fig)
     elif metric == 'Rings':
         st.subheader('Rings')
-        st.write(df.Rings)
+        st.write(df[['Planet', 'Rings']])
     else:
         st.subheader('Atmospheric Constituents')
-        st.write(df['Atmospheric Constituents'])
+        st.write(df[['Planet', 'Atmospheric Constituents']])
 
 
 
