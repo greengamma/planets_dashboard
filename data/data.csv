@@ -1,9 +1,9 @@
-Planet,Orbit Distance(km),Equatorial Radius(km),Volume(km3),Mass(kg),Density(g/cm3),Surface Gravity(m/s2),Escape Velocity(km/h),Rotation Period(Earth Days),Orbit Period(Earth Years),Mean Orbit Velocity(km/h),Orbit Eccentricity,Orbit Inclination,Equatorial Inclination,Mean Temperature(°C),Atmospheric Constituents,Moons,Rings
-Mercury,57909227,2439.7,60827208742,3.3E+023,5.427,3.7,15300,58.646,0.2408467,170503,0.20563593,7.0 degrees,0 degrees,167,,0,No
-Venus,108209475,6051.8,928415345893,4.87E+024,5.243,8.87,37296,-243.018,0.61519726,126074,0.00677672,3.39 degrees,177.3 degrees (retrograde rotation),464,"""Carbon Dioxide, Nitrogen""",0,No
-Earth,149598262,6371,1083206916846,5.97E+024,5.513,9.80665,40284,0.99726968,1.0000174,107218,0.01671123,0.00005 degrees,23.4393 degrees,15,"""Nitrogen, Oxygen""",1,No
-Mars,227943824,3389.5,163115609799,6.42E+023,3.934,3.71,18108,1.026,1.8808476,86677,0.0933941,1.85 degrees,25.2,-65,"""Carbon Dioxide, Nitrogen, Argon""",2,No
-Jupiter,778340821,69911,1431281810739360,1.9E+027,1.326,24.79,216720,0.41354,11.862615,47002,0.04838624,1.304 degrees,3.1 degrees,-110,"""Hydrogen, Helium""",80,Yes
-Saturn,1426666422,58232,827129915150897,5.68E+026,0.687,10.4*,129924,0.444,29.447498,34701,0.05386179,2.49 degrees,26.7 degrees,-140,"""Hydrogen, Helium""",84,Yes
-Uranus,2870658186,25362,68334355695584,8.68E+025,1.27,8.87,76968,-0.718,84.016846,24477,0.04725744,0.77 degrees,97.8 degrees (retrograde rotation),-195,"""Hydrogen, Helium, Methane""",27,Yes
-Neptune,4498396441,24622,62525703987421,1.02E+026,1.638,11.15,84816,0.671,164.79132,19566,0.00859048,1.77 degrees,28.3 degrees,-200,"""Hydrogen, Helium, Methane""",14,Yes
+Planet,Orbit Distance(km),Equatorial Radius(km),Volume(km3),Mass(kg),Density(g/cm3),Surface Gravity(m/s2),Escape Velocity(km/h),Rotation Period(Earth Days),Orbit Period(Earth Years),Mean Orbit Velocity(km/h),Orbit Eccentricity,Orbit Inclination(degrees),Equatorial Inclination(degrees),Mean Temperature(°C),Atmospheric Constituents,Moons,Rings
+Mercury,57909227,2439.7,60827208742,3.30E+23,5.427,3.7,15300,58.646,0.2408467,170503,0.20563593,7,0,167,,0,No
+Venus,108209475,6051.8,928415345893,4.87E+24,5.243,8.87,37296,-243.018,0.61519726,126074,0.00677672,3.39,177.3,464,"""Carbon Dioxide, Nitrogen""",0,No
+Earth,149598262,6371,1083206916846,5.97E+24,5.513,9.80665,40284,0.99726968,1.0000174,107218,0.01671123,0.00005,23.4393,15,"""Nitrogen, Oxygen""",1,No
+Mars,227943824,3389.5,163115609799,6.42E+23,3.934,3.71,18108,1.026,1.8808476,86677,0.0933941,1.85,25.2,-65,"""Carbon Dioxide, Nitrogen, Argon""",2,No
+Jupiter,778340821,69911,1431281810739360,1.90E+27,1.326,24.79,216720,0.41354,11.862615,47002,0.04838624,1.304,3.1,-110,"""Hydrogen, Helium""",80,Yes
+Saturn,1426666422,58232,827129915150897,5.68E+26,0.687,10.4,129924,0.444,29.447498,34701,0.05386179,2.49,26.7,-140,"""Hydrogen, Helium""",84,Yes
+Uranus,2870658186,25362,68334355695584,8.68E+25,1.27,8.87,76968,-0.718,84.016846,24477,0.04725744,0.77,97.8,-195,"""Hydrogen, Helium, Methane""",27,Yes
+Neptune,4498396441,24622,62525703987421,1.02E+26,1.638,11.15,84816,0.671,164.79132,19566,0.00859048,1.77,28.3,-200,"""Hydrogen, Helium, Methane""",14,Yes
